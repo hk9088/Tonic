@@ -8,8 +8,8 @@ require "connection.php";
 session_start();
 $errors = array();
 date_default_timezone_set('asia/dhaka');
-$from = 'hridoy.18192103013.bubt@gmail.com';
-$pass_mail = 'hridoy_18192103013_bubt';
+$from = '';
+$pass_mail = '';
 if(isset($_POST['reg_user'])){
    
     
